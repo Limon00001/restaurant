@@ -5,8 +5,14 @@
  * @copyright 2025 monayem_hossain_limon
  */
 
+import Navbar from './components/Navbar';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main className="overflow-x-hidden">
+      <Navbar />
+    </main>
+  );
 };
 
 // Export
