@@ -1,13 +1,13 @@
 /**
  * Author: Monayem Hossain Limon
  * GitHub: https://github.com/Limon00001
- * Date: 2025-05-02
+ * Date: 2025-02-05
  * @copyright 2025 monayem_hossain_limon
  */
 
 // External Dependencies
 import { useState } from 'react';
-import { FaCartPlus } from 'react-icons/fa';
+import { BsCartPlus } from 'react-icons/bs';
 import { GoDotFill } from 'react-icons/go';
 import { TfiClose, TfiMenu } from 'react-icons/tfi';
 
@@ -27,7 +27,7 @@ const Navbar = () => {
             onClick={() => window.location.replace('/')}
           >
             <h1 className="text-2xl font-semibold">Foodie </h1>
-            <span className="mt-2 text-red-900">
+            <span className="mt-2 text-green-700">
               <GoDotFill />
             </span>
           </div>
@@ -48,8 +48,8 @@ const Navbar = () => {
           </div>
           {/* Cart & Hamburger */}
           <div className="flex items-center gap-8">
-            <button className="text-xl cursor-pointer">
-              <FaCartPlus />
+            <button className="text-lg cursor-pointer rounded-full bg-green-800 hover:bg-black text-white p-2 transition-colors">
+              <BsCartPlus />
             </button>
             <button
               className="text-xl cursor-pointer md:hidden"
@@ -71,7 +71,7 @@ const Navbar = () => {
               <li key={item.id}>
                 <a
                   href={item.link}
-                  className="text-lg font-medium hover:text-red-800 transition-colors"
+                  className="text-lg font-medium hover:text-green-700 transition-colors"
                 >
                   {item.name}
                 </a>

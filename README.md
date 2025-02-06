@@ -54,6 +54,7 @@ restaurant/
 ├── src/
 │   ├── assets/
 │   ├── constants/
+│   ├── utils/
 │   └── components/
 └── public/
 ```

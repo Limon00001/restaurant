@@ -1,7 +1,7 @@
 /**
  * Author: Monayem Hossain Limon
  * GitHub: https://github.com/Limon00001
- * Date: 2025-05-02
+ * Date: 2025-02-05
  * @copyright 2025 monayem_hossain_limon
  */
 
@@ -22,4 +22,15 @@ html {
 
 body {
   @apply bg-gray-100;
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+.btn-primary {
+  @apply bg-green-700 text-white hover:scale-110 font-semibold py-2 px-4 rounded-full duration-200;
+}
+
+.img-shadow {
+  filter: drop-shadow(-6px 6px 10px rgba(0, 0, 0, 0.4));
 }
