@@ -6,6 +6,7 @@
  */
 
 // Internal Dependencies
+import Banner from './components/Banner';
 import Hero from './components/Hero';
 import HotDessert from './components/HotDessert';
 import Navbar from './components/Navbar';
@@ -18,6 +19,7 @@ const App = () => {
         <Hero />
       </div>
       <HotDessert />
+      <Banner />
     </main>
   );
 };

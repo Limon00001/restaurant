@@ -31,7 +31,7 @@ const HotDessert = () => {
               initial="initial"
               whileInView="animate"
               key={item.id}
-              className="group bg-white/50 shadow-md p-3 flex items-center gap-3 rounded-lg"
+              className="group bg-white/50 shadow-md p-3 flex items-center gap-3 rounded-lg cursor-pointer"
             >
               <img
                 src={item.img}
